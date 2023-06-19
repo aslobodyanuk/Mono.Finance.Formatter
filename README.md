@@ -16,3 +16,20 @@ Warning: Currently MAUI project does not even start because of some dependencies
 4. Drag the files onto Finance.Formatter.Console.exe in the Windows explorer (you should see filepaths of those files in the console)
 5. Wait for the excel to be opened
 6. Have fun with your finance report
+
+# How keywords config works ?
+
+```
+{
+   "Keyword":"PEPCO",
+   "Category":"House improvement"
+},
+{
+   "Keyword":"DECATHLON",
+   "Category":"Sport"
+}
+```
+
+1. When transactions parsed a tool would automatically check for any keywords in the keywords config
+2. If Description of the transaction contains a keyword from config it will be assigned a category
+3. Please do not duplicate keywords in the configuration to avoid unexpected behaviour
