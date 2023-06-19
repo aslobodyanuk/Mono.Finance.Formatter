@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Windows Machine": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    },
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\andrii.slobodianiuk\\source\\repos\\Finance.Formatter\\Finance.Formatter\\bin\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\Finance.Formatter.exe",
+      "nativeDebugging": true
+    }
+  }
+}
