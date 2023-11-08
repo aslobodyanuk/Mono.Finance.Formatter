@@ -14,7 +14,7 @@ namespace Finance.Formatter.Models.Input
         public string? ITN { get; set; }
         [Name("IBAN")]
         public string? IBAN { get; set; }
-        [Name("Amaunt (NBU exchange rate equivalent)")]
+        [Name("Amount (NBU exchange rate equivalent)")]
         public string? AmountNBUExchangeRateEquivalent { get; set; }
         [Name("Operation amount")]
         public string? OperationAmount { get; set; }
